@@ -11,7 +11,6 @@ export default function Loader() {
 
   return (
     <div id="loader" className={isDone ? "done" : ""}>
-      <img src="/logo/kamali_v_favicon.png" alt="Logo" style={{ height: '60px', marginBottom: '20px', animation: 'namePulse 1.5s ease infinite' }} />
       <div className="l-name">KAMALI V</div>
       <div className="l-spin">
         <div className="l-ring"></div>

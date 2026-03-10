@@ -13,7 +13,7 @@ export default function CanvasBackground() {
     let w = (cvs.width = window.innerWidth);
     let h = (cvs.height = window.innerHeight);
     const pts: any[] = [];
-    const count = 38;
+    const count = w < 768 ? 16 : 38;
 
     class Pt {
       x: number;

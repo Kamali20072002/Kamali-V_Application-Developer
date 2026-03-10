@@ -7,6 +7,9 @@ export default function Hero() {
   const [counts, setCounts] = useState({ c1: 0, c2: 0, c3: 0 });
 
   useEffect(() => {
+    // Force scroll to top on load
+    window.scrollTo(0, 0);
+
     // Reveal animations
     const elements = ["hbadge", "hname", "hrole", "hdesc", "hstats", "hcta", "heroImg"];
     elements.forEach((id, i) => {

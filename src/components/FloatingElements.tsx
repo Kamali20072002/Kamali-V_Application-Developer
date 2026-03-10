@@ -25,7 +25,7 @@ export default function FloatingElements() {
     let w = (cvs.width = window.innerWidth);
     let h = (cvs.height = window.innerHeight);
     const elements: any[] = [];
-    const count = 35; // Increased count
+    const count = w < 768 ? 12 : 35; // Increased count for desktop, reduced for mobile
 
     const loadedImages: HTMLImageElement[] = [];
     let imagesProcessed = 0;
