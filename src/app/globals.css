@@ -185,7 +185,7 @@ body{font-family:var(--font-rajdhani),sans-serif;background:var(--bg);color:var(
 .pkg-card:hover::before{transform:scaleX(1);}
 .pkg-type{font-family:var(--font-space-mono),monospace;font-size:.55rem;letter-spacing:.28em;text-transform:uppercase;padding:4px 10px;border-radius:2px;display:inline-block;margin-bottom:14px;}
 .type-flutter{color:#42a5f5;background:rgba(66,165,245,.08);border:1px solid rgba(66,165,245,.2);}
-.type-template{color:var(--cyan);background:rgba(0,245,204,.06);border:1px solid rgba(0,245,204,.2);}
+.type-template{color:#FF6B35;background:rgba(255,107,53,.07);border:1px solid rgba(255,107,53,.2);}
 .type-plugin{color:#c084fc;background:rgba(192,132,252,.07);border:1px solid rgba(192,132,252,.2);}
 .pkg-name{font-family:var(--font-orbitron),sans-serif;font-size:.85rem;font-weight:700;color:#fff;margin-bottom:8px;}
 .pkg-desc{font-size:.86rem;color:rgba(226,240,250,.52);line-height:1.7;margin-bottom:16px;}

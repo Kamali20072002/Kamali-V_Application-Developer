@@ -15,6 +15,18 @@ const packages = [
       { text: "Documentation", url: "https://pub.dev/documentation/notix_pro/latest/", class: "pkg-btn-gh" },
     ],
   },
+  {
+    type: "Flutter Template",
+    typeClass: "type-template",
+    name: "NightBite — Flutter Food Delivery UI Kit",
+    desc: "Production-grade Flutter food delivery UI kit with a dark premium aesthetic, featuring OpenStreetMap & OSRM real-road routing.",
+    tags: ["Flutter", "GetX", "OSM Map", "OSRM Routing", "UI Kit"],
+    image: "/images/restaurant/thumbnail/Restaurant_Thumbnail.png",
+    links: [
+      { text: "Buy on Gumroad", url: "https://kamaliv.gumroad.com/l/vgqses", class: "pkg-btn-pub" },
+      { text: "Source on GitHub", url: "https://github.com/Kamali20072002/Restaurant", class: "pkg-btn-gh" },
+    ],
+  },
 ];
 
 export default function Packages() {
@@ -118,7 +130,7 @@ export default function Packages() {
         <div className="pkg-note reveal">
           <p>
             I actively contribute to the <strong>Flutter ecosystem</strong> and
-            maintain high-quality UI kits like <strong>Notix Pro</strong> to help developers build better apps.
+            maintain high-quality UI kits like <strong>Notix Pro</strong> and <strong>NightBite</strong> to help developers build better apps.
           </p>
         </div>
       </div>
