@@ -20,7 +20,7 @@ export default function Hero() {
     });
 
     // Stats counter
-    const targets = { c1: 6, c2: 12000, c3: 14 };
+    const targets = { c1: 4, c2: 10, c3: 2.3 }; // c3: 2.3 for 2y 3m
     const dur = 2200;
     const start = performance.now();
 
@@ -30,7 +30,7 @@ export default function Hero() {
       setCounts({
         c1: Math.floor(ease * targets.c1),
         c2: Math.floor(ease * targets.c2),
-        c3: Math.floor(ease * targets.c3),
+        c3: Number((ease * targets.c3).toFixed(1)),
       });
       if (p < 1) requestAnimationFrame(update);
     };
@@ -71,23 +71,25 @@ export default function Hero() {
             <span className="stat-l">Live Apps</span>
           </div>
           <div className="stat">
-            <span className="stat-n">
-              {counts.c2 >= 1000 ? (counts.c2 / 1000).toFixed(1) + "k" : counts.c2}+
-            </span>
-            <span className="stat-l">Active Users</span>
+            <span className="stat-n">{counts.c2}+</span>
+            <span className="stat-l">Total Projects</span>
           </div>
           <div className="stat">
             <span className="stat-n">{counts.c3}+</span>
-            <span className="stat-l">Products</span>
-          </div>
-          <div className="stat">
-            <span className="stat-n">2yr</span>
-            <span className="stat-l">Experience</span>
+            <span className="stat-l">Years Experience</span>
           </div>
         </div>
         <div className="hero-cta" id="hcta">
           <a href="#experience" className="btn btn-p">
             View My Work
+          </a>
+          <a
+            href="/pdf/Kamali_V_Resume.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn btn-o"
+          >
+            View Resume
           </a>
           <a href="#contact" className="btn btn-o">
             Hire Me

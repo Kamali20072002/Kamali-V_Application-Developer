@@ -48,13 +48,12 @@ const experience = [
         ],
       },
       {
-        name: "📦 Inventory Management System",
-        badge: "React Vite",
-        badgeClass: "b-vi",
+        name: "📦 Inventory Management System (Next.js & Socket.IO)",
+        badge: "Next.js",
+        badgeClass: "b-nx",
         points: [
-          "Real-time stock tracking, low-stock alerts & automated reorder workflows",
-          "Role-based access (Admin / Manager / Staff) with JWT authentication",
-          "Analytics dashboard: stock movement, category & supplier charts; CSV/PDF export",
+          "Built a Next.js inventory management platform with role-based access control across 3 roles — Admin, StockManager, and Employee — each with tailored dashboards and permissions.",
+          "Integrated a real-time in-app chat system using Socket.IO, enabling instant communication between roles for streamlined inventory coordination.",
         ],
       },
       {
@@ -106,7 +105,7 @@ export default function Experience() {
     <section className="sec" id="experience" ref={sectionRef}>
       <div className="sec-inner">
         <div className="reveal">
-          <span className="eyebrow">// Work History</span>
+          <span className="eyebrow">{"// Work History"}</span>
           <h2 className="heading">
             Professional <span>Experience</span>
           </h2>

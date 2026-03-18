@@ -24,7 +24,11 @@ export const metadata: Metadata = {
   title: "Kamali V — Flutter & Full-Stack Developer",
   description: "2 years shipping cross-platform mobile apps & scalable backends — from Figma mockups to Google Play, pixel-perfect and production-grade.",
   icons: {
-    icon: "/logo/kamali_v_favicon.png",
+    icon: [
+      { url: "/favicon.ico" },
+      { url: "/icon.png", type: "image/png" },
+    ],
+    apple: "/logo/kamali_v_favicon.png",
   },
 };
 

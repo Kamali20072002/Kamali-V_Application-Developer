@@ -76,6 +76,16 @@ export default function Nav() {
             Contact
           </Link>
         </li>
+        <li>
+          <a
+            href="/pdf/Kamali_V_Resume.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="resume-link"
+          >
+            Resume
+          </a>
+        </li>
       </ul>
     </nav>
   );

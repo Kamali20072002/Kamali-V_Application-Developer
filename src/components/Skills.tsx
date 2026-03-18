@@ -56,7 +56,7 @@ export default function Skills() {
     <section className="sec" id="skills" ref={sectionRef}>
       <div className="sec-inner">
         <div className="reveal">
-          <span className="eyebrow">// Core Competencies</span>
+          <span className="eyebrow">{"// Core Competencies"}</span>
           <h2 className="heading">
             Skills & <span>Technologies</span>
           </h2>
